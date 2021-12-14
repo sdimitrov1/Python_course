@@ -1,5 +1,5 @@
 height = float(input('Plaese input your Heightin meters: '))
-weight = int(input('Plaese input your Weight in kg: '))
+weight = float(input('Plaese input your Weight in kg: '))
 bmi = (weight / (height*height))
 
 if (bmi > 0 and bmi <= 18.5):
