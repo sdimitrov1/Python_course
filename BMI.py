@@ -1,8 +1,9 @@
 height = float(input('Plaese input your Heightin meters: '))
 weight = float(input('Plaese input your Weight in kg: '))
 bmi = (weight / (height*height))
-
-if (bmi > 0 and bmi <= 18.5):
+if (height <= 0 or weight <= 0):
+    print("Please insert valid parameters.")
+elif (bmi > 0 and bmi <= 18.5):
     print(round(bmi,2))
     print('You are undeweight')
 elif (bmi > 18.5 and bmi <= 24.9):
