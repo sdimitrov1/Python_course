@@ -1,5 +1,5 @@
 from random import randint
-machine_number = randint(1,10)
+machine_number = randint(start_number,end_number)
 
 max_tries = 3
 start_number  = int(input("Plaese choose the lowest number: "))
